@@ -103,3 +103,5 @@ obj-$(CONFIG_YBKJ_A20_JN)	+= dram_ybkj_a20_jn.o
 obj-$(CONFIG_YONESTOPTECH_BD1078)	+= dram_yonestoptech_bd1078.o
 obj-$(CONFIG_ZATAB)		+= dram_zatab.o
 obj-$(CONFIG_MERRII_M2)		+= dram_merrii_m2.o
+obj-$(CONFIG_ITEADAW2042)	+= dram_cubietruck.o
+obj-$(CONFIG_ITEADAW2041)	+= dram_cubieboard2.o
