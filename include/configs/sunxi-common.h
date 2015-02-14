@@ -63,13 +63,13 @@
 #else
 #define PHYS_SDRAM_0_SIZE		0x40000000 /* 1 GiB */
 #endif
-#if 0
+#if 1
 /* Nand config */
 #define CONFIG_NAND
 #define CONFIG_NAND_SUNXI
 #define CONFIG_CMD_NAND                         /* NAND support */
 #define CONFIG_SYS_MAX_NAND_DEVICE      1
-#define CONFIG_SYS_NAND_BASE            0x00
+#define CONFIG_SYS_NAND_BASE            0x01C03000 //0x00
 #endif
 
 #define CONFIG_CMD_MEMORY
